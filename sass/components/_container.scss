@@ -1,0 +1,41 @@
+.container {
+    margin:69px;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    padding-left:22px;
+    padding-right:23px;
+    width: 100%;
+    max-width: 1400px;
+
+    background: #011627;
+        border: 1px solid #1E2D3D;
+        border-radius: 8px;
+
+    // @media screen and(min-width:320px) {
+    //     // width: 376px;
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+
+    // @media screen and (min-width: 768px) {
+    //     width: 768px;
+    // }
+
+    // @media screen and (min-width: 1200px) {
+    //     width: 1400px;
+    // }
+}
+
+// .container-footer {
+//     @media screen and (min-width: 768px) {
+//         display: flex;
+//     }
+// }
+
+// .container-main {
+//     position: relative;
+
+//     @media screen and (min-width: 768px) {
+//         display: flex;
+//     }
+// }

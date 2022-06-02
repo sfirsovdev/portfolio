@@ -1,0 +1,16 @@
+:root {
+    --main-text-color: #fbfbfb;
+    --second-text-color: #212121;
+    --accent-text-color: #fe8202;
+    --background-color: #f1f1f1;
+    --text-color: #ffffff;
+    --border-color: #181818;
+}
+
+body {
+    background-color: var(--border-color);
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
+        Cormorant Unicase;
+    color: var(--main-text-color);
+}
