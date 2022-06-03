@@ -123,8 +123,8 @@ body {
   line-height: 1.3;
 }
 
-.sitenav__item {
-  margin-right: 60px;
+.item_contact {
+  margin-left: 20px;
 }
 
 .sitenav__link {
@@ -133,28 +133,37 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   border: 1px solid #1E2D3D;
+  border-right: none;
   color: #607B96;
   text-decoration: none;
 }
 
 .active::after {
   content: "";
-  width: 140%;
+  width: 100%;
   height: 3px;
   background: #FEA55F;
   position: absolute;
   left: 0;
-  bottom: -15px;
+  bottom: -2px;
   pointer-events: none;
 }
 
-.sitenav__linkcurrent {
+.active {
   color: #fff;
-  display: block;
   text-decoration: none;
   position: relative;
 }
 
-.sitenav .sitenav .sitenav__linkcurrent {
+.sitenav .sitenav .active {
   color: var(--accent-text-color);
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
